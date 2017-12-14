@@ -28,7 +28,7 @@ nav a {
   padding-top: 30px;
 }
 
-section {
+.header {
   text-align: center;
   margin: 30px;
 }
@@ -43,12 +43,54 @@ section h2 {
 
 /* end of stlying header */
 
+/* stlye content-conflict */
+.content-conflict {
+  background-color: #F1A9A0;
+  line-height: 1.5;
+
+}
+
+.content-conflict h1{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #F64747;
+}
+
+.content-conflict blockquote {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+.content-conflict ol {
+  font-size: 1.2em;
+  font-family: georgia;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.content-conflict h4 {
+  padding-bottom: 20px;
+  font-family: georgia;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* end of stlying content-conflict */
+
 /* stlye footer */
 footer {
-  width: 80%;
+
   background-color: #AEA8D3;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 footer p {
@@ -57,3 +99,5 @@ footer p {
   color: white;
   font-family: 'Chelsea Market', cursive;
 }
+
+/* end of stlying footer */
