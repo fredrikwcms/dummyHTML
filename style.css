@@ -47,7 +47,11 @@ section h2 {
 .content-conflict {
   background-color: #F1A9A0;
   line-height: 1.5;
+}
 
+
+.content-conflict:nth-child(odd) {
+    background-color: lightblue;
 }
 
 .content-conflict h1{
