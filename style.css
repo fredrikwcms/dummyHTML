@@ -4,8 +4,16 @@
 h1{
   font-family: 'Chelsea Market', cursive;
   text-align: center;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 3.5em;
+}
+
+p, ol, ul, blockquote, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  padding: 30px;
 }
 
 nav {
