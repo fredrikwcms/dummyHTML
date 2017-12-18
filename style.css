@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-/* style header */
+
+
 h1{
   font-family: 'Chelsea Market', cursive;
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 10px;
   font-size: 3.5em;
 }
+
 
 p, ol, ul, blockquote, h3 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  padding: 30px;
+  /* padding: 0 30px 30px 30px; */
 }
+
 
 nav {
   text-align: center;
@@ -41,20 +43,25 @@ nav a {
   margin: 30px;
 }
 
-section h2 {
+/* section h2 {
   padding: 10px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
   font-style: italic;
   font-weight: bold;
-}
+} */
 
-/* end of stlying header */
 
-/* stlye content-conflict */
+
+/* stlye content */
 .content {
   background-color: #F1A9A0;
   line-height: 1.5;
+  margin-top: 0;
+}
+
+.content h1 {
+  color: #F64747;
 }
 
 
@@ -63,11 +70,33 @@ section h2 {
     line-height: 1.5;
 }
 
-.content-conflict h1{
+.content:nth-child(odd) h1 {
+  color: #4183D7
+}
+
+/* style introduction */
+#introduktion p {
+  padding: 0 30px 30px 30px;
+}
+/* style grup process */
+#grupp h2 {
+  padding-left: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+ #grupp ol, #grupp p  {
+   padding-left: 50px;
+ }
+
+ .end p {
+   padding-bottom: 30px;
+ }
+
+/* .content-conflict h1{
   padding-top: 20px;
   padding-bottom: 10px;
   color: #F64747;
-}
+} */
 
 .content-conflict blockquote {
   font-family: 'Josefin Sans', sans-serif;
