@@ -44,13 +44,13 @@ section h2 {
 /* end of stlying header */
 
 /* stlye content-conflict */
-.content-conflict {
+.content {
   background-color: #F1A9A0;
   line-height: 1.5;
 }
 
 
-.content-conflict:nth-child(odd) {
+.content:nth-child(odd) {
     background-color: lightblue;
     line-height: 1.5;
 }
@@ -106,7 +106,7 @@ footer {
   background-color: #AEA8D3;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 footer p {
